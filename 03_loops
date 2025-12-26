@@ -1,0 +1,42 @@
+For loops in python-
+
+for i in range(5):
+    print("numbers are", i)
+
+
+range(start, end, step)
+
+for i in range(10,20,2):
+    print("numbers are", i)
+
+
+________________________
+
+
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num == 3:
+        break  # Loop stops here
+    print(num)
+
+for num in numbers:
+    if num % 2 != 0:
+        continue # Skip odd numbers
+    print(num)
+
+
+__________________________
+
+
+while loop
+
+
+i = 0
+while i < 5:
+    print("num is", i)
+    i+=1
+
+_________________________
+
+
+

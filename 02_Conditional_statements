@@ -1,0 +1,15 @@
+if else block-
+
+
+x = 30
+
+if x > 20:
+    print("number is greater than 20")
+elif x > 5:
+    print("number is greater than 10")
+else:
+    print("not eligible")
+
+
+
+we have elif 

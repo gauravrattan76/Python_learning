@@ -1,0 +1,37 @@
+Python is dynamically typed (unlike Java).
+
+x = 10          # int
+y = 3.14        # float
+name = "Gaurav" # string
+is_valid = True # boolean
+
+
+No need to declare types:
+java -
+int x = 10;   // Java
+
+python
+x = 10        # Python
+
+
+_______________________________________
+
+
+Input & Output (Important for coding platforms)
+
+# Output
+print("Hello Python")
+
+# Input
+n = int(input())
+print("value is",n)
+
+here once you enetr the number in terminal, same number gets printed
+
+
+__________________________________________
+
+multi inout are here
+a, b = map(int, input().split())
+print("a and b numbers are", a ,b)
+

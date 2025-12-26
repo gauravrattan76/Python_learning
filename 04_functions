@@ -1,0 +1,58 @@
+def sum(a,b):
+    print("sum is", a + b)
+
+sum(2,3)
+
+
+_____________
+
+
+recursion
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+
+
+sum of numbers to n-
+
+sum = 0;
+
+def calSum(n):
+    global sum
+    for i in range(n+1):
+       sum += i
+    return sum
+
+print("sum is", calSum(5))
+
+
+__________
+
+
+
+code for prime-
+def checkPrime(n):
+    if n <= 1:
+        print("not prime")
+        return
+    for i in range(2,n):
+      if n % i == 0:
+        print("not prime")
+        return
+
+    print("prine number")
+
+
+checkPrime(4)
+
+
+
+
+
+
+
+
+
